@@ -24,11 +24,14 @@
     "@mui/x-tree-view": "^6.17.0",
     "@nextui-org/react": "^2.2.9",
     "@react-spring/web": "^9.7.3",
-    "axios": "^1.5.1",
+    "@tgwf/co2": "^0.16.0",
+    "@types/tgwf__co2": "^0.14.2",
+    "axios": "^1.7.7",
     "classnames": "^2.3.1",
     "cookies": "^0.8.0",
     "cookies-next": "^2.1.1",
     "date-fns": "^2.30.0",
+    "express": "^4.21.1",
     "fernet": "^0.3.2",
     "form-data": "^4.0.0",
     "framer-motion": "^10.16.4",
@@ -55,10 +58,15 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-typescript": "7.19.3",
+    "@mantine/charts": "^7.13.3",
+    "@mantine/core": "^7.13.3",
+    "@mantine/hooks": "^7.13.3",
     "autoprefixer": "^10.4.18",
     "eslint": "8.15.0",
     "eslint-config-next": "12.1.6",
-    "postcss": "^8.4.13",
+    "postcss": "^8.4.47",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
     "tailwindcss": "^3.0.24"
   }
 }

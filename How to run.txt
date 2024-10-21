@@ -1,0 +1,5 @@
+If we want to run ui application without co2 emission you can run it as always
+npm run dev
+
+if we want co2 emission details also
+node server.js
